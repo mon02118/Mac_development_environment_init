@@ -50,7 +50,10 @@ caffeine
 - 
 
 ```shell
-brew install cocoapods zsh zsh-completions
+brew install \
+cocoapods \
+zsh \
+zsh-completions
 ```
 
 
