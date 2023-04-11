@@ -26,13 +26,22 @@ Xcode 安裝建議官網下載 - [官網](https://developer.apple.com/download/a
 - adguard
 - postman
 - iterm2
+- rectangle
+- caffeine
 
 ```shell
-
-brew install --cask slack sourcetree microsoft-remote-desktop visual-studio-code notion microsoft-edge adguard postman iterm2
-
-
-
+brew install --cask \
+slack \
+sourcetree \
+microsoft-remote-desktop \
+visual-studio-code \
+notion \
+microsoft-edge \
+adguard \
+postman \
+iterm2 \
+rectangle \
+caffeine
 ```
 
 安裝
@@ -61,3 +70,4 @@ Oh My ZSH
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
