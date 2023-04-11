@@ -20,17 +20,44 @@ Xcode 安裝建議官網下載 - [官網](https://developer.apple.com/download/a
 - Slack
 - sourcetree
 - microsoft-remote-desktop
+- vscode
+- notion
+- edge
+- adguard
+- postman
+- iterm2
 
 ```shell
 
-brew install --cask slack sourcetree android-studio microsoft-remote-desktop 
+brew install --cask slack sourcetree microsoft-remote-desktop visual-studio-code notion microsoft-edge adguard postman iterm2
+
+
 
 ```
 
 安裝
 - cocoapods
+- zsh zsh-completions
+- 
 
 ```shell
-brew install cocoapods 
+brew install cocoapods zsh zsh-completions
 ```
 
+
+ZSH
+```shell
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+chsh -s $(which zsh)
+```
+
+確認
+```shell
+echo $SHELL
+```
+
+
+Oh My ZSH
+```shell
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
