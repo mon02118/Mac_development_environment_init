@@ -12,6 +12,10 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)" 
 ```
 
+提高Homebrew權限(Optional)
+```shell
+sudo chown -R ${USER} /Users/${USER}/Library/Caches/Homebrew
+```
 ---
 
 Xcode 安裝建議官網下載 - [官網](https://developer.apple.com/download/all/?q=xcode)
