@@ -32,6 +32,7 @@ Xcode 安裝建議官網下載 - [官網](https://developer.apple.com/download/a
 - iterm2
 - rectangle
 - caffeine
+- db-browser-for-sqlite
 
 ```shell
 brew install --cask \
@@ -45,7 +46,8 @@ adguard \
 postman \
 iterm2 \
 rectangle \
-caffeine
+caffeine \
+db-browser-for-sqlite
 ```
 
 安裝
