@@ -53,13 +53,14 @@ db-browser-for-sqlite
 安裝
 - cocoapods
 - zsh zsh-completions
-- 
+- youtube-dl
 
 ```shell
 brew install \
 cocoapods \
 zsh \
-zsh-completions
+zsh-completions \
+youtube-dl 
 ```
 
 
