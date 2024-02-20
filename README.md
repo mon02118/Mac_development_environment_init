@@ -41,6 +41,7 @@ sourcetree \
 microsoft-remote-desktop \
 visual-studio-code \
 notion \
+github \
 microsoft-edge \
 adguard \
 postman \
