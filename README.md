@@ -20,19 +20,7 @@ sudo chown -R ${USER} /Users/${USER}/Library/Caches/Homebrew
 
 Xcode 安裝建議官網下載 - [官網](https://developer.apple.com/download/all/?q=xcode)
 
-安裝
-- Slack
-- sourcetree
-- microsoft-remote-desktop
-- vscode
-- notion
-- edge
-- adguard
-- postman
-- iterm2
-- rectangle
-- caffeine
-- db-browser-for-sqlite
+安裝App
 
 ```shell
 brew install --cask \
@@ -43,6 +31,7 @@ visual-studio-code \
 notion \
 github \
 microsoft-edge \
+google-chrome \
 adguard \
 postman \
 iterm2 \
@@ -52,9 +41,6 @@ db-browser-for-sqlite
 ```
 
 安裝
-- cocoapods
-- zsh zsh-completions
-- youtube-dl
 
 ```shell
 brew install \
