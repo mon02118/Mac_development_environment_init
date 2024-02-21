@@ -61,6 +61,8 @@ brew install \
 cocoapods \
 zsh \
 zsh-completions \
+ffmpeg \
+npm \ 
 youtube-dl 
 ```
 
