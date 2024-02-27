@@ -25,6 +25,7 @@ Xcode 安裝建議官網下載 - [官網](https://developer.apple.com/download/a
 ```shell
 brew install --cask \
 slack \
+vlc \
 sourcetree \
 microsoft-remote-desktop \
 visual-studio-code \
