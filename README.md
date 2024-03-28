@@ -12,7 +12,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)" 
 ```
 
-提高Homebrew權限(Optional)
+提高Homebrew權限(Optional)†y
 ```shell
 sudo chown -R ${USER} /Users/${USER}/Library/Caches/Homebrew
 ```
@@ -28,6 +28,7 @@ slack \
 vlc \
 sourcetree \
 microsoft-remote-desktop \
+zep
 visual-studio-code \
 notion \
 github \
@@ -45,7 +46,6 @@ db-browser-for-sqlite
 
 ```shell
 brew install \
-cocoapods \
 zsh \
 zsh-completions \
 ffmpeg \
