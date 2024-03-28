@@ -71,3 +71,29 @@ Oh My ZSH
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+
+-----
+--x86--
+安裝x86_Homebrew
+```shell
+arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+安裝 x86 Python3
+```shell
+eval "$(/usr/local/bin/brew shellenv)"
+arch -x86_64 brew install python@3.10
+```
+.zshrc
+```shell
+alias x_python3=/usr/local/bin/python3.10
+alias x_pip3=/usr/local/bin/pip3.10
+```
+
+.zprofile
+```shell
+if [[ "$(uname -m)" == "x86_64" ]]; then
+    eval "$(/usr/local/bin/brew shellenv)"
+elif [[ "$(uname -m)" == "arm64" ]]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+```
