@@ -1,5 +1,6 @@
 brew install --cask \
 slack \
+zeplin \
 vlc \
 sourcetree \
 microsoft-remote-desktop \
