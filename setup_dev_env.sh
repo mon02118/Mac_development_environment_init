@@ -6,7 +6,7 @@ echo "==================================="
 echo "==================================="
 echo "==========設定homebrew路徑=========="
 echo "==================================="
-eval "$(/opt/homebrew/bin/brew shellenv)" >> ~/.zprofile 
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 echo "==================================="
 echo "==========安裝cli app=========="
