@@ -15,3 +15,4 @@ iterm2 \
 rectangle \
 caffeine \
 db-browser-for-sqlite \
+docker \ 
