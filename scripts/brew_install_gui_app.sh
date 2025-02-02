@@ -1,4 +1,4 @@
-brew install --cask \
+brew install \
 slack \
 zeplin \
 vlc \
@@ -15,4 +15,5 @@ iterm2 \
 rectangle \
 caffeine \
 db-browser-for-sqlite \
-docker \ 
+openvpn-connect \
+docker --cask

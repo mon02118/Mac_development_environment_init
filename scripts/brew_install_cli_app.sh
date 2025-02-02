@@ -3,4 +3,4 @@ zsh \
 zsh-completions \
 ffmpeg \
 npm \
-youtube-dl
+yt-dlp
